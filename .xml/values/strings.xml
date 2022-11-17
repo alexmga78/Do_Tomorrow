@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Do Tomorrow</string>
+    <string-array name="task_when_to_do">
+        <item>Today</item>
+        <item>Tomorrow</item>
+
+    </string-array>
+
+    <string name="test">Test</string>
+
+<!--    TODO Add all hardcoded elements to Strings-->
+
+
+<!--    TODO LATER: Get all Strings from a DataBase-->
+</resources>

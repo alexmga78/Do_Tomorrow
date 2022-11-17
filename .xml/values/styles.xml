@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="threedots_Menu" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_dotsfor_menu_dots</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <style name="animation_PopupWindow">
+        <item name="android:windowEnterAnimation">@anim/upwards_in</item>
+        <item name="android:windowExitAnimation">@anim/upwards_out</item>
+    </style>
+<!--    TODO Bug: Animation updates only if is reinstalled-->
+
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:title="menu_dots"-->
+<!--        android:icon="@drawable/ic_dotsfor_menu_dots"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:id="@+id/menu_dots" />-->
+    <item
+        android:title="Settings"
+        android:id="@+id/threedots_Settings"
+        app:showAsAction="never"
+        android:visible="true"/>
+
+    <item
+        android:title="Show done tasks"
+        android:id="@+id/threedots_TasksDone_Show"
+        app:showAsAction="never"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/threedots_TasksDone_Hide"
+        android:title="Hide done tasks"
+        android:visible="false"
+        app:showAsAction="never" />
+
+
+    <item
+        android:title="Sort"
+        android:id="@+id/threedots_Sort_Menu"
+        app:showAsAction="never"
+        android:visible="true">
+
+        <menu>
+            <item
+                android:title="by Name"
+                android:id="@+id/threedots_Sort_byName"
+                app:showAsAction="never"
+                android:visible="true">
+
+            </item>
+
+            <item
+                android:title="by Name (reverse)"
+                android:id="@+id/threedots_Sort_byName_Reverse"
+                app:showAsAction="never"
+                android:visible="false">
+
+            </item>
+
+            <item
+                android:title="by Date"
+                android:id="@+id/threedots_Sort_byDate"
+                app:showAsAction="never"
+                android:visible="true">
+<!--                TODO Code part (Date)-->
+
+            </item>
+
+            <item
+                android:title="by Date (reverse)"
+                android:id="@+id/threedots_Sort_byDate_Reverse"
+                app:showAsAction="never"
+                android:visible="false">
+
+            </item>
+
+            <item
+                android:title="by Priority"
+                android:id="@+id/threedots_Sort_byPriority"
+                app:showAsAction="never"
+                android:visible="true">
+<!--                TODO Code part (Priority)-->
+
+            </item>
+
+            <item
+                android:title="by Priority (reversed)"
+                android:id="@+id/threedots_Sort_byPriority_Reverse"
+                app:showAsAction="never"
+                android:visible="false">
+
+            </item>
+
+
+
+
+
+
+
+
+
+<!--            =======================================-->
+            <item
+                android:title="by Id"
+                android:id="@+id/threedots_Sort_byId"
+                app:showAsAction="never"
+                android:visible="true">
+
+            </item>
+
+            <item
+                android:title="by Id (reverse)"
+                android:id="@+id/threedots_Sort_byId_Reverse"
+                app:showAsAction="never"
+                android:visible="false">
+
+            </item>
+
+
+
+        </menu>
+
+
+    </item>
+
+
+
+<!--    TODO Sorting Tasks and Tasks_Done (by date, priority, )-->
+<!--    (if name selected then the list will be: by name (reverse), dat, priority)-->
+<!--    (if date is selected after name, the list will transform into: by name, date (reverse), priorty)-->
+
+<!--    TODO Animation for sorting-->
+
+</menu>
